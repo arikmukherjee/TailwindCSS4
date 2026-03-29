@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactivity in Tailwind CSS</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <h1 class="text-2xl underline">Hover, Focus, and Active States</h1>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-5 rounded">
+        Click to see hover effect
+    </button>
+    <button class="bg-blue-500 focus:bg-yellow-700 text-white font-bold py-2 px-4 m-5 rounded">
+        Click to see focus effect
+    </button>
+    <button class="bg-blue-500 active:bg-green-700 text-white font-bold py-2 px-4 m-5 rounded">
+        Click to see active effect
+    </button>
+
+    <button class="bg-blue-500  hover:bg-blue-700  focus:bg-yellow-700 active:bg-green-700 text-white font-bold py-2 px-4 m-5 rounded">
+        All states
+    </button>
+
+
+    <h1> Grouping </h1>
+    <div class="group">
+        <button class="bg-blue-500 text-white font-bold py-2 px-4 m-5 rounded">
+            Parent Button
+        </button>
+        <p class="text-gray-500 group-hover:text-yellow-900">
+            This text changes color when the parent button is hovered.
+        </p>
+    </div>
+
+    <div>
+         <a class="group">
+            <h1 class=" group-hover:bg-black group-hover:text-white">Heading click</h1>
+            <p class="group-hover:bg-black group-hover: text-white"> Para Click</p>
+         </a>
+    </div>
+
+</body>
+</html>
