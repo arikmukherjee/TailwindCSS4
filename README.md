@@ -83,6 +83,11 @@ npm run build
 npm run watch
 ```
 
+Or run the CLI directly with:
+```bash
+npx @tailwindcss/cli -i style.css -o .\output.css --watch
+```
+
 4. **Open files in your browser**:
 Open any `.html` file from the "Tailwind with CLI" folder in your browser to see the compiled Tailwind styles in action.
 
