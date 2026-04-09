@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dialog</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-gray-200 h-screen flex items-center justify-center">
+
+  <!-- Overlay -->
+  <div id="modal" class="fixed inset-0 bg-black/40 flex items-center justify-center">
+
+    <!-- Modal -->
+    <div class="bg-white w-[420px] rounded-xl shadow-xl p-6">
+
+      <div class="flex gap-4">
+        
+        <!-- Icon -->
+        <div class=" text-red-500 p-3 rounded-full text-5xl">
+          ⚠️
+        </div>
+
+        <!-- Text -->
+        <div>
+          <h2 class="text-lg font-semibold text-gray-800">
+            Deactivate account
+          </h2>
+          <p class="text-sm text-gray-600 mt-1">
+            Are you sure you want to deactivate your account? All of your data will be permanently removed. This action cannot be undone.
+          </p>
+        </div>
+      </div>
+
+      <!-- Buttons -->
+      <div class="flex justify-end gap-3 mt-6">
+        <button class="px-4 py-2 border rounded-md text-gray-700 hover:bg-gray-100">
+          Cancel
+        </button>
+        <button class="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600">
+          Deactivate
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

@@ -92,3 +92,10 @@ npx @tailwindcss/cli -i style.css -o .\output.css --watch
 Open any `.html` file from the "Tailwind with CLI" folder in your browser to see the compiled Tailwind styles in action.
 
 The CLI version allows you to customize Tailwind's configuration via `tailwind.config.js` and use all advanced features of Tailwind CSS v4.
+
+Ref:
+
+- https://www.youtube.com/playlist?list=PL8p2I9GklV471sLqkGuf0eKAu9sVNmKFV
+- https://tailwindcss.com/docs/installation/using-vite
+- https://getbootstrap.com/
+- https://fonts.google.com/
